@@ -1,25 +1,23 @@
-# BISMILLAHARIHRAHMARIRAHIM - Introduction
+# BISMILLAHARIHRAHMARIRAHIM - integrate_Vite_builds_with_Springboot
 # KUNYE
 ## REF 
-- [1 Introduction]_[zealous_system]  https://zealousys.com/blog/why-choose-react-for-frontend-and-java-spring-boot-for-backend/#:~:text=React%20and%20Spring%20Boot%20offer,backend%20efficiently%20handles%20business%20logic.
-
+- [vite_official]  https://vite.dev/guide/backend-integration.html
+- [github_wimdeblauwe] https://github.com/wimdeblauwe/vite-plugin-spring-boot
   
 <!--------------->
-![label](https://github.com/user-attachments/assets/ed1ae018-14cb-49a6-9bfb-71d86001dba5)
+Integrating Vite with Spring Boot typically involves two phases: configuring a proxy for development to avoid CORS issues and setting up the build process so Spring Boot can serve the final production assets. 
 
+1. Development: Proxy Configuration
 
+In development, your Vite dev server (usually localhost:5173) needs to talk to your Spring Boot backend (usually localhost:8080). 
+Use the server.proxy option in your Vite configuration to redirect API calls. 
 
+<img width="1125" height="902" alt="image" src="https://github.com/user-attachments/assets/a0ea61a2-8a4e-4ba6-87ad-4d1628d1f169" />
 
+Any request made to /api/users from your frontend will be automatically forwarded to http://localhost:8080/api/users
 
-<!--------------->
-#1 Introduction
-`React`, developed by Facebook, is a powerful JavaScript library for building dynamic and interactive user interfaces. It simplifies frontend development by breaking down the UI into `reusable components`.
-On the other hand, `Java with Spring Boot` is a backend framework known for its reliability, scalability, and ability to handle complex enterprise applications.
+2. Production: Build Integration
+For production, you must bundle the frontend and place it where Spring Boot can serve it as static content. By default, Spring Boot looks in src/main/resources/static. 
 
-This combination is ideal for developing web applications, enterprise software, and microservices-based systems
-Enterprise applications require a tech stack that is scalable, secure, and easy to maintain. React and Spring Boot fulfill these requirements, making them a preferred choice for enterprise software development.
-
-Scalability: React’s component-based architecture and Spring Boot’s microservices support make it easy to scale applications as business needs grow.
-Security: Spring Boot offers built-in security features like authentication, authorization, and data encryption, making it ideal for handling sensitive enterprise data.
-Performance: React’s Virtual DOM ensures fast rendering, while Spring Boot provides optimized backend processing, leading to a high-performing application.
-Integration: Spring Boot easily integrates with databases, cloud services, and third-party APIs, while React seamlessly connects with backend services via RESTful 
+Configure Output Directory: Update vite.config.js to build directly into the Spring Boot project folder.
+<img width="1642" height="671" alt="image" src="https://github.com/user-attachments/assets/d09a8de4-d905-4673-a45a-ad64b1295691" />
