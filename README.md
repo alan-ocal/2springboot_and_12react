@@ -2,7 +2,8 @@
 # KUNYE
 ## REF 
 - [1 Introduction]_[zealous_system]  https://zealousys.com/blog/why-choose-react-for-frontend-and-java-spring-boot-for-backend/#:~:text=React%20and%20Spring%20Boot%20offer,backend%20efficiently%20handles%20business%20logic.
-
+- [1 Introduction][kantega]  https://www.kantega.no/blogg/webapp-with-create-react-app-and-spring-boot
+- [1 Introduction]medium  https://medium.com/@AlexanderObregon/how-to-use-spring-boot-to-serve-client-side-routing-apps-like-react-or-vue-a460f5f1ee1e
   
 <!--------------->
 ![label](https://github.com/user-attachments/assets/ed1ae018-14cb-49a6-9bfb-71d86001dba5)
