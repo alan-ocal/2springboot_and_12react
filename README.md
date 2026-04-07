@@ -4,6 +4,8 @@
 - [1_TanStack Query]_[youtube_devworld]https://www.youtube.com/watch?v=BD_SeOOD3t4
 - [1_TanStack Query]_[burgstaller]https://burgstaller.dev/blog/
 - [1_TanStack Query] [medium_sakshi] https://medium.com/@sakshijaiswal0310/server-side-table-operations-made-simple-react-tanstack-spring-boot-9fa89291fbb1
+-                                    https://github.com/sakshi-jaiswal03/Serverside-Table-Operations/tree/master
+-                                    https://github.com/sakshi-jaiswal03/Springbootprojh2/tree/main  
 - [1_TanStack Query] [medium_ashishgarg] https://medium.com/@ashishgarg.bme/simplifying-data-fetching-with-tanstack-query-axios-vs-fetch-6632cf481530
 <!--------------->
 - [1_TanStack Query](#1_TanStack Query)
@@ -12,6 +14,11 @@
 - [2_Implementation Workflow] (#2_Implementation Workflow)
    - [Backend_Architecture](#Backend_Architecture)
    - [Frontend_Architecture](#Frontend_Architecture)
+     - [01_Custom Hook](#01_Custom Hook)
+          [Data_Fetching](#Data_Fetching]
+     - [02_Foodbank Table Component](#02_Foodbank Table Component)
+
+  
    <!--------------->
 
 # 1_TanStack_Query
@@ -46,12 +53,19 @@ implement server-side pagination, sorting, and filtering for datasets with milli
 
 ## Frontend _Architecture
 ### 01_Custom Hook
-- [2-Data Fetching]: Use useQuery from TanStack Query to fetch this data in React components.
-- [3-Type Safety]: Use tools like Zod or generate TypeScript types from Spring Boot's OpenAPI/Swagger
-  definitions to ensure the frontend matches backend data structures.
-- [4-State Management]: Instead of useEffect or global state libraries (like Redux),
-  use TanStack Query’s cache to manage data throughout the app.
-- [5-Complex UI]: Use TanStack Table to display the fetched data, passing pagination states back to the Spring Boot backend as query parameters. 
+<img width="852" height="782" alt="image" src="https://github.com/user-attachments/assets/5e9f8dc3-d361-45c2-8791-357847ddb4bf" />
+
+- [2-Data Fetching]:
+<img width="832" height="648" alt="image" src="https://github.com/user-attachments/assets/7c1161a2-a2d3-4717-9760-899910d176b0" />
+
+- [4-State Management]: useState, useEffect, useCallback
+### 02_Foodbank Table Component
+use @tanstack/react-table
+- [5-Complex UI]: Use TanStack Table to display the fetched data, passing pagination states back to the Spring Boot backend as query parameters.
+- <img width="422" height="221" alt="image" src="https://github.com/user-attachments/assets/a3f776d8-0b1d-43f2-af04-5601c02af46a" />
+
+Foodbank Table
+<img width="1422" height="567" alt="image" src="https://github.com/user-attachments/assets/490e35b8-2a15-4fa5-ac34-f5df0dfe1ee1" />
 
 
 
