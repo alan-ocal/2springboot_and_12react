@@ -3,6 +3,7 @@
 ## REF 
 - [vite_official]  https://vite.dev/guide/backend-integration.html
 - [github_wimdeblauwe] https://github.com/wimdeblauwe/vite-plugin-spring-boot
+- [jessym]https://www.jessym.com/articles/bundling-react-vite-with-spring-boot
   
 <!--------------->
 Integrating Vite with Spring Boot typically involves two phases: configuring a proxy for development to avoid CORS issues and setting up the build process so Spring Boot can serve the final production assets. 
