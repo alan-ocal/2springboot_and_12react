@@ -1,4 +1,4 @@
-# esirgeyen ve bağışlayan ❤️ Allah'ın (c.c) adıyla - phases_8_City_I_VAST_IdSignInService
+# esirgeyen ve bağışlayan ❤️ Allah'ın (c.c) adıyla - 2springboot_and_12react
 
 ## client-side-only authentication with React + Vite 
 ![image](imgs/demo.png)
