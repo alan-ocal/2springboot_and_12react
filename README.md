@@ -1,6 +1,8 @@
 # esirgeyen ve bağışlayan ❤️ Allah'ın (c.c) adıyla - 2springboot_and_12react
 
 ## client-side-only authentication with React + Vite 
+- react_router provides navigation  `npm install react-router-dom`
+  
 ![image](imgs/demo.png)
 ![image](imgs/routing_flow_with_UI.png)
 
