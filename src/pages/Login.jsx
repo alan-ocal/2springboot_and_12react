@@ -7,7 +7,7 @@ function Login() {
 
     const navigate = useNavigate();
     const location = useLocation();
-
+    //User input -> component state: The email and password inputs update local state via setEmail and setPassword.
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [error, setError] = useState("");
