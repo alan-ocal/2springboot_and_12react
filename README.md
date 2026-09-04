@@ -1,5 +1,3 @@
-# BISMILLAHARIHRAHMARIRAHIM - Data Fetching
-# KUNYE
 ## REF 
 - [1_TanStack Query]_[youtube_devworld]https://www.youtube.com/watch?v=BD_SeOOD3t4
 - [1_TanStack Query]_[burgstaller]https://burgstaller.dev/blog/
